@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA4EB99B18B497D900D98CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4EB99A18B497D900D98CC4 /* Foundation.framework */; };
+		BA4EB99D18B497D900D98CC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4EB99C18B497D900D98CC4 /* CoreGraphics.framework */; };
+		BA4EB99F18B497D900D98CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4EB99E18B497D900D98CC4 /* UIKit.framework */; };
+		BA4EB9A518B497D900D98CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA4EB9A318B497D900D98CC4 /* InfoPlist.strings */; };
+		BA4EB9A718B497D900D98CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4EB9A618B497D900D98CC4 /* main.m */; };
+		BA4EB9AB18B497D900D98CC4 /* StrideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4EB9AA18B497D900D98CC4 /* StrideAppDelegate.m */; };
+		BA4EB9AE18B497D900D98CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4EB9AC18B497D900D98CC4 /* Main.storyboard */; };
+		BA4EB9B118B497D900D98CC4 /* StrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4EB9B018B497D900D98CC4 /* StrideViewController.m */; };
+		BA4EB9B318B497D900D98CC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4EB9B218B497D900D98CC4 /* Images.xcassets */; };
+		BA4EB9BA18B497D900D98CC4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4EB9B918B497D900D98CC4 /* XCTest.framework */; };
+		BA4EB9BB18B497D900D98CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4EB99A18B497D900D98CC4 /* Foundation.framework */; };
+		BA4EB9BC18B497D900D98CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4EB99E18B497D900D98CC4 /* UIKit.framework */; };
+		BA4EB9C418B497D900D98CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA4EB9C218B497D900D98CC4 /* InfoPlist.strings */; };
+		BA4EB9C618B497D900D98CC4 /* StridesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4EB9C518B497D900D98CC4 /* StridesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA4EB9BD18B497D900D98CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4EB98F18B497D900D98CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4EB99618B497D900D98CC4;
+			remoteInfo = Strides;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA4EB99718B497D900D98CC4 /* Strides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strides.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4EB99A18B497D900D98CC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA4EB99C18B497D900D98CC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA4EB99E18B497D900D98CC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA4EB9A218B497D900D98CC4 /* Strides-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Strides-Info.plist"; sourceTree = "<group>"; };
+		BA4EB9A418B497D900D98CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA4EB9A618B497D900D98CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA4EB9A818B497D900D98CC4 /* Strides-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Strides-Prefix.pch"; sourceTree = "<group>"; };
+		BA4EB9A918B497D900D98CC4 /* StrideAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrideAppDelegate.h; sourceTree = "<group>"; };
+		BA4EB9AA18B497D900D98CC4 /* StrideAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrideAppDelegate.m; sourceTree = "<group>"; };
+		BA4EB9AD18B497D900D98CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA4EB9AF18B497D900D98CC4 /* StrideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrideViewController.h; sourceTree = "<group>"; };
+		BA4EB9B018B497D900D98CC4 /* StrideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrideViewController.m; sourceTree = "<group>"; };
+		BA4EB9B218B497D900D98CC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA4EB9B818B497D900D98CC4 /* StridesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StridesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4EB9B918B497D900D98CC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BA4EB9C118B497D900D98CC4 /* StridesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StridesTests-Info.plist"; sourceTree = "<group>"; };
+		BA4EB9C318B497D900D98CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA4EB9C518B497D900D98CC4 /* StridesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StridesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4EB99418B497D900D98CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4EB99D18B497D900D98CC4 /* CoreGraphics.framework in Frameworks */,
+				BA4EB99F18B497D900D98CC4 /* UIKit.framework in Frameworks */,
+				BA4EB99B18B497D900D98CC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4EB9B518B497D900D98CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4EB9BA18B497D900D98CC4 /* XCTest.framework in Frameworks */,
+				BA4EB9BC18B497D900D98CC4 /* UIKit.framework in Frameworks */,
+				BA4EB9BB18B497D900D98CC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA4EB98E18B497D900D98CC4 = {
+			isa = PBXGroup;
+			children = (
+				BA4EB9A018B497D900D98CC4 /* Strides */,
+				BA4EB9BF18B497D900D98CC4 /* StridesTests */,
+				BA4EB99918B497D900D98CC4 /* Frameworks */,
+				BA4EB99818B497D900D98CC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4EB99818B497D900D98CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4EB99718B497D900D98CC4 /* Strides.app */,
+				BA4EB9B818B497D900D98CC4 /* StridesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4EB99918B497D900D98CC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4EB99A18B497D900D98CC4 /* Foundation.framework */,
+				BA4EB99C18B497D900D98CC4 /* CoreGraphics.framework */,
+				BA4EB99E18B497D900D98CC4 /* UIKit.framework */,
+				BA4EB9B918B497D900D98CC4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA4EB9A018B497D900D98CC4 /* Strides */ = {
+			isa = PBXGroup;
+			children = (
+				BA4EB9A918B497D900D98CC4 /* StrideAppDelegate.h */,
+				BA4EB9AA18B497D900D98CC4 /* StrideAppDelegate.m */,
+				BA4EB9AC18B497D900D98CC4 /* Main.storyboard */,
+				BA4EB9AF18B497D900D98CC4 /* StrideViewController.h */,
+				BA4EB9B018B497D900D98CC4 /* StrideViewController.m */,
+				BA4EB9B218B497D900D98CC4 /* Images.xcassets */,
+				BA4EB9A118B497D900D98CC4 /* Supporting Files */,
+			);
+			path = Strides;
+			sourceTree = "<group>";
+		};
+		BA4EB9A118B497D900D98CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA4EB9A218B497D900D98CC4 /* Strides-Info.plist */,
+				BA4EB9A318B497D900D98CC4 /* InfoPlist.strings */,
+				BA4EB9A618B497D900D98CC4 /* main.m */,
+				BA4EB9A818B497D900D98CC4 /* Strides-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA4EB9BF18B497D900D98CC4 /* StridesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4EB9C518B497D900D98CC4 /* StridesTests.m */,
+				BA4EB9C018B497D900D98CC4 /* Supporting Files */,
+			);
+			path = StridesTests;
+			sourceTree = "<group>";
+		};
+		BA4EB9C018B497D900D98CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA4EB9C118B497D900D98CC4 /* StridesTests-Info.plist */,
+				BA4EB9C218B497D900D98CC4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4EB99618B497D900D98CC4 /* Strides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4EB9C918B497D900D98CC4 /* Build configuration list for PBXNativeTarget "Strides" */;
+			buildPhases = (
+				BA4EB99318B497D900D98CC4 /* Sources */,
+				BA4EB99418B497D900D98CC4 /* Frameworks */,
+				BA4EB99518B497D900D98CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strides;
+			productName = Strides;
+			productReference = BA4EB99718B497D900D98CC4 /* Strides.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA4EB9B718B497D900D98CC4 /* StridesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4EB9CC18B497D900D98CC4 /* Build configuration list for PBXNativeTarget "StridesTests" */;
+			buildPhases = (
+				BA4EB9B418B497D900D98CC4 /* Sources */,
+				BA4EB9B518B497D900D98CC4 /* Frameworks */,
+				BA4EB9B618B497D900D98CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4EB9BE18B497D900D98CC4 /* PBXTargetDependency */,
+			);
+			name = StridesTests;
+			productName = StridesTests;
+			productReference = BA4EB9B818B497D900D98CC4 /* StridesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4EB98F18B497D900D98CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Stride;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jeffrey West";
+				TargetAttributes = {
+					BA4EB9B718B497D900D98CC4 = {
+						TestTargetID = BA4EB99618B497D900D98CC4;
+					};
+				};
+			};
+			buildConfigurationList = BA4EB99218B497D900D98CC4 /* Build configuration list for PBXProject "Strides" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA4EB98E18B497D900D98CC4;
+			productRefGroup = BA4EB99818B497D900D98CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4EB99618B497D900D98CC4 /* Strides */,
+				BA4EB9B718B497D900D98CC4 /* StridesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA4EB99518B497D900D98CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4EB9B318B497D900D98CC4 /* Images.xcassets in Resources */,
+				BA4EB9A518B497D900D98CC4 /* InfoPlist.strings in Resources */,
+				BA4EB9AE18B497D900D98CC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4EB9B618B497D900D98CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4EB9C418B497D900D98CC4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4EB99318B497D900D98CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4EB9B118B497D900D98CC4 /* StrideViewController.m in Sources */,
+				BA4EB9A718B497D900D98CC4 /* main.m in Sources */,
+				BA4EB9AB18B497D900D98CC4 /* StrideAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4EB9B418B497D900D98CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4EB9C618B497D900D98CC4 /* StridesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA4EB9BE18B497D900D98CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4EB99618B497D900D98CC4 /* Strides */;
+			targetProxy = BA4EB9BD18B497D900D98CC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA4EB9A318B497D900D98CC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4EB9A418B497D900D98CC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA4EB9AC18B497D900D98CC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4EB9AD18B497D900D98CC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA4EB9C218B497D900D98CC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4EB9C318B497D900D98CC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA4EB9C718B497D900D98CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA4EB9C818B497D900D98CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA4EB9CA18B497D900D98CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Strides/Strides-Prefix.pch";
+				INFOPLIST_FILE = "Strides/Strides-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA4EB9CB18B497D900D98CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Strides/Strides-Prefix.pch";
+				INFOPLIST_FILE = "Strides/Strides-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA4EB9CD18B497D900D98CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Strides.app/Strides";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Strides/Strides-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StridesTests/StridesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BA4EB9CE18B497D900D98CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Strides.app/Strides";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Strides/Strides-Prefix.pch";
+				INFOPLIST_FILE = "StridesTests/StridesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4EB99218B497D900D98CC4 /* Build configuration list for PBXProject "Strides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4EB9C718B497D900D98CC4 /* Debug */,
+				BA4EB9C818B497D900D98CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4EB9C918B497D900D98CC4 /* Build configuration list for PBXNativeTarget "Strides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4EB9CA18B497D900D98CC4 /* Debug */,
+				BA4EB9CB18B497D900D98CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA4EB9CC18B497D900D98CC4 /* Build configuration list for PBXNativeTarget "StridesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4EB9CD18B497D900D98CC4 /* Debug */,
+				BA4EB9CE18B497D900D98CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA4EB98F18B497D900D98CC4 /* Project object */;
+}
